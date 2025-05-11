@@ -13,9 +13,9 @@ public class Soma {
 		int x, y, soma;
 		
 		// Entrada das informações
-		System.out.print("Olá, digite o primeiro número: ");
+		System.out.print("Olá, digite o primeiro número da soma: ");
 		x = sc.nextInt();
-		System.out.print("Agora digite o segundo número: ");
+		System.out.print("Agora digite o segundo número da soma: ");
 		y = sc.nextInt();
 		
 		// Processamento
