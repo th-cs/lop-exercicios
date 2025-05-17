@@ -1,6 +1,5 @@
 // Lê dois números reais, calcula a divisão do primeiro pelo segundo e
 // escreve o resultado na tela
-
 import java.util.Scanner;
 
 public class Divisao {
@@ -21,8 +20,8 @@ public class Divisao {
 		quociente = dividendo / divisor;
 		
 		// Saída
-		System.out.println("A divisão de " + dividendo + " por "
-		                 +  divisor + " é " + quociente);
+		System.out.println("A divisão de " + dividendo + " por " +  divisor
+		                 + " é " + quociente);
 		
 		sc.close();
 	}

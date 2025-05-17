@@ -1,6 +1,4 @@
-// Lê dois números inteiros, calcula a subtração do primeiro
-// pelo segundo e escreve o resultado na tela
-
+// Lê dois números inteiros, calcula a subtração deles e escreve o resultado na tela
 import java.util.Scanner;
 
 public class Subtracao {
@@ -11,19 +9,17 @@ public class Subtracao {
 		int termo1, termo2, diferenca;
 		
 		// Entrada das informações
-		System.out.print("Olá, digite o primeiro número da "
-		               + "subtração: ");
+		System.out.print("Olá, digite o primeiro número da subtração: ");
 		termo1 = sc.nextInt();
-		System.out.print("Agora digite o segundo número da "
-		               + "subtração: ");
+		System.out.print("Agora digite o segundo número da subtração: ");
 		termo2 = sc.nextInt();
 		
 		// Processamento
 		diferenca = termo1 - termo2;
 		
 		// Saída
-		System.out.println("A subtração de " + termo1 + " por "
-		                 +  termo2 + " é " + diferenca);
+		System.out.println("A subtração de " + termo1 + " por " +  termo2
+		                 + " é " + diferenca);
 		
 		sc.close();
 	}

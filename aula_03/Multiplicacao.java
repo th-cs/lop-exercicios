@@ -1,6 +1,4 @@
-// Lê dois números inteiros, calcula a multiplicação deles e escreve
-// o resultado na tela
-
+// Lê dois números inteiros, calcula a multiplicação deles e escreve o resultado na tela
 import java.util.Scanner;
 
 public class Multiplicacao {
@@ -11,11 +9,9 @@ public class Multiplicacao {
 		int fator1, fator2, produto;
 		
 		// Entrada das informações
-		System.out.print("Olá, digite o primeiro número da "
-		               + "multiplicação: ");
+		System.out.print("Olá, digite o primeiro número da multiplicação: ");
 		fator1 = sc.nextInt();
-		System.out.print("Agora digite o segundo número da "
-		               + "multiplicação: ");
+		System.out.print("Agora digite o segundo número da multiplicação: ");
 		fator2 = sc.nextInt();
 		
 		// Processamento
