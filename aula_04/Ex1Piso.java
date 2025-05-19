@@ -1,5 +1,5 @@
-// Lê as dimensões de largura e comprimento de um cômodo retangular (1 casa decimal)
-// e o valor do metro quadrado do piso (2 casas decimais). Calcula e exibe a área
+// Lê as dimensões de largura e comprimento de um cômodo retangular (1 casa decimal) e 
+// o valor do metro quadrado do piso (2 casas decimais). Depois calcula e exibe a área 
 // total do cômodo e o custo total para cobrir o piso (ambos com 2 casas decimais)
 import java.util.Scanner;
 

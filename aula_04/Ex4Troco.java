@@ -1,5 +1,5 @@
 // Lê o preço unitário de um produto de uma mercearia, quantidade de unidades
-// compradas por um cliente e o valor pago. Calcula o valor do troco
+// compradas por um cliente e o valor pago. Depois calcula o valor do troco
 import java.util.Scanner;
 
 public class Ex4Troco {
