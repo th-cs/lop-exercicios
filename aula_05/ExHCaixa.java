@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ExHCaixa {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		
+
 		// Declaração das variáveis
 		double largura, comprimento, altura, volume;
 
@@ -24,7 +24,7 @@ public class ExHCaixa {
 
 		// Saída
 		System.out.printf("\nO volume dessa caixa é de %.2f cm³\n", volume);
-		
+
 		input.close();
 	}
 }

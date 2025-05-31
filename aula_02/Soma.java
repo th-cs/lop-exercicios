@@ -5,25 +5,25 @@ import java.util.Scanner;
 
 public class Soma {
 	public static void main(String[] args) {
-		
+
 		// Cria um objeto scanner
 		Scanner sc = new Scanner(System.in);
-		
+
 		// Declaração das variáveis
 		int x, y, soma;
-		
+
 		// Entrada das informações
 		System.out.print("Olá, digite o primeiro número da soma: ");
 		x = sc.nextInt();
 		System.out.print("Agora digite o segundo número da soma: ");
 		y = sc.nextInt();
-		
+
 		// Processamento
 		soma = x + y;
-		
+
 		// Saída
 		System.out.println("A soma de " + x + " + " + y + " é " + soma);
-		
+
 		// Fecha o scanner
 		sc.close();
 	}

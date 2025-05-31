@@ -7,24 +7,24 @@ import java.util.Scanner;
 public class ExDCombustivel {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		
+
 		// Declaração das variáveis
 		int velocidade;
 		double tempo, distancia, quantidadeLitros, kmLitro = 12;
 
 		System.out.println("-- Cálculo de distância percorrida e combustível "
 			+ "utilizado em uma viagem --\n");
-		
+
 		// Entrada das informações
 		System.out.print("Olá, qual foi o tempo de viagem em minutos? ");
 		tempo = input.nextDouble();
 		System.out.print("Qual foi a velocidade média do automóvel em km/h? ");
 		velocidade = input.nextInt();
-		
+
 		// Cálculo
 		distancia = (tempo / 60) * velocidade;
 		quantidadeLitros = distancia / kmLitro;
-		
+
 		// Saída
 		System.out.printf("\n- Tempo de viagem: %d Hora(s) e %.0f Minuto(s)"
 			+ "\n- Velocidade média: %d km/h\n- Distância percorrida: %.1f km"

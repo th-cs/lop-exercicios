@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Ex4Troco {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+
 		// Declaração das variáveis
 		double precoUnitario, valorPago, troco;
 		int quantidade;
-		
+
 		// Entrada das informações
 		System.out.print("Digite o preço unitário do produto: R$ ");
 		precoUnitario = sc.nextDouble();
@@ -17,10 +17,10 @@ public class Ex4Troco {
 		quantidade = sc.nextInt();
 		System.out.print("Digite o valor pago pelo cliente: R$ ");
 		valorPago = sc.nextDouble();
-		
+
 		// Processamento
 		troco = valorPago - (precoUnitario * quantidade);
-		
+
 		// Saída
 		System.out.println(String.format("\n- Preço unitário do produto: R$ %.2f"
 		                               + "\n- Quantidade comprada: %d unidade(s)"
@@ -28,7 +28,7 @@ public class Ex4Troco {
 		                               + "\n- Troco a ser devolvido: R$ %.2f",
 		                               precoUnitario, quantidade, valorPago,
 		                               troco));
-		
+
 		sc.close();
 	}
 }
